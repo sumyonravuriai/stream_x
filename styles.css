@@ -241,6 +241,7 @@ h2 {
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
+    position: static;
 }
 
 .optslides div {
@@ -299,6 +300,7 @@ h2 {
     display: flex;
     gap: 100px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .foot-links ul {
@@ -317,4 +319,14 @@ h2 {
 
 .foot-links a:hover {
     text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .optslides div {
+    width: 90%;
+  }
+
+  .optslides {
+    flex-direction: column;
+    align-items: center;
+  }
 }
