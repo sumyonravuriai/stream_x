@@ -219,6 +219,31 @@ option {
     height: 210px;
     background-image: url("images/outgoingimg.jpeg");  
 }
+.video4{
+    width: 140px;
+    height: 210px;
+    background-image: url("images/elipticaimg.jpeg");  
+}
+.video5{
+    width: 140px;
+    height: 210px;
+    background-image: url("images/gundiimg.jpeg");  
+}
+.video6{
+    width: 140px;
+    height: 210px;
+    background-image: url("images/maggieimg.jpeg");  
+}
+.video7{
+    width: 140px;
+    height: 210px;
+    background-image: url("images/sankrantiimg.jpeg");  
+}
+.video8{
+    width: 140px;
+    height: 210px;
+    background-image: url("images/zooimg.jpeg");  
+}
 
 .join {
     margin-top: 10px;
@@ -241,7 +266,7 @@ h2 {
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
-    position: static;
+    position: staticS;
 }
 
 .optslides div {
